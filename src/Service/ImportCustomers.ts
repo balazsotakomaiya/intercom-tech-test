@@ -3,7 +3,7 @@ import readline from 'readline';
 import * as fs from "fs";
 
 export default class ImportCustomers {
-    private path: string;
+    private readonly path: string;
 
     private customers: Array<Customer> = [];
 
@@ -16,7 +16,7 @@ export default class ImportCustomers {
     public static jsonToCustomer(json: string): Customer {
         const { latitude, longitude, user_id, name } = JSON.parse(json);
 
-        return new Customer(latitude, longitude, user_id, name);
+        return new Customer(Number(latitude), Number(longitude), user_id, name);
     }
 
     public async import(): Promise<Array<Customer>> {

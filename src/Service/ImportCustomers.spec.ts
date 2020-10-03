@@ -8,7 +8,7 @@ describe('Import Customers', () => {
         );
 
         expect(customer).toEqual(
-            new Customer("53.807778", "-7.714444", 28, "Charlie Halligan")
+            new Customer(53.807778, -7.714444, 28, "Charlie Halligan")
         );
     });
 
@@ -17,7 +17,7 @@ describe('Import Customers', () => {
 
         expect(customers).toHaveLength(32);
         expect(customers[0]).toEqual(
-            new Customer("52.986375", "-6.043701", 12, "Christina McArdle")
+            new Customer(52.986375, -6.043701, 12, "Christina McArdle")
         )
     });
 })

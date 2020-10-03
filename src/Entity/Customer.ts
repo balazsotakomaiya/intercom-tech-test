@@ -1,15 +1,12 @@
-export default class Customer {
-    public latitude: string;
+import Location from './Location';
 
-    public longitude: string;
-
+export default class Customer extends Location {
     public userId: number;
 
     public name: string;
 
-    constructor(latitude: string, longitude: string, userId: number, name: string) {
-        this.latitude = latitude;
-        this.longitude = longitude;
+    constructor(latitude: number, longitude: number, userId: number, name: string) {
+        super(latitude, longitude)
         this.userId = userId;
         this.name = name;
     }
