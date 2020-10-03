@@ -13,7 +13,7 @@ export default class ImportCustomers {
         return this;
     }
 
-    private static jsonToCustomer(json: string): Customer {
+    public static jsonToCustomer(json: string): Customer {
         const { latitude, longitude, user_id, name } = JSON.parse(json);
 
         return new Customer(latitude, longitude, user_id, name);
