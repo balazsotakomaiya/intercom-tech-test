@@ -1,6 +1,6 @@
 import ImportCustomers from './Service/ImportCustomers';
 
-console.log('👋 Hello there, fellow Intercom colleague!')
+console.log('👋 Hello there, future Intercom colleague!')
 console.log('Reading customers.txt file...')
 
 new ImportCustomers('./data/customers.txt')
