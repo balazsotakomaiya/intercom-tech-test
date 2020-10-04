@@ -1,0 +1,19 @@
+👋 Hello there, future Intercom colleague!
+✅  Successfully imported 32 customers.
+👉  Here's a list of all the customers within 100km's of your Dublin office:
+> Ian Kehoe (4)
+> Nora Dempsey (5)
+> Theresa Enright (6)
+> Eoin Ahearn (8)
+> Richard Finnegan (11)
+> Christina McArdle (12)
+> Olive Ahearn (13)
+> Michael Ahearn (15)
+> Patricia Cahill (17)
+> Eoin Gallagher (23)
+> Rose Enright (24)
+> Stephen McArdle (26)
+> Oliver Ahearn (29)
+> Nick Enright (30)
+> Alan Behan (31)
+> Lisa Ahearn (39)
